@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+</head>
+<style>
+    .container{
+        width: 500px;
+        height: 500px;
+        background-color: aqua
+
+    }
+    #card{
+        position: relative;
+        height: 120px;
+        background-color: red;
+        width: 120px;
+        background-image: url(IMG-20231019-WA0016.jpg);
+    }
+    #drop{
+        height: 120px;
+        background-color: white;
+        width: 120px;
+        position: absolute;
+        left: 200px;
+        
+        
+
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div id="card" draggable="true" >
+           
+            <div id="drop"></div>
+
+        </div>
+         
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
